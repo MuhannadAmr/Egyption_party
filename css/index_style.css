@@ -1,0 +1,166 @@
+:root {
+    --mainColor: rgba(214, 46, 51, 0.6);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+}
+
+/* ===================== First secction (Home)============================= */
+#home {
+    background: linear-gradient(var(--mainColor), var(--mainColor)), url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 660px;
+}
+
+.home-content {
+    padding: 16px;
+}
+
+#home h1 {
+    font-size: 60px;
+    padding-top: 200px;
+}
+
+#home span {
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.4s;
+    /* margin-left: calc(leftListWidth + 30px); */
+}
+
+/* ================== Left list (Nav)================= */
+.left-list {
+    background-color: #111;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: 2;
+    /* padding-right: 80px; */
+    /* display: none; */
+}
+
+.left-list a {
+    text-decoration: none;
+    padding: 20px 80px 20px 32px;
+    margin-top: 30px;
+    display: block;
+    color: white;
+    font-size: 25px;
+    transition: all 0.4s;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    padding: 0 !important;
+    margin-top: 0px !important;
+}
+#home a:hover{
+    color: #D62E33;
+}
+/* ===================second section (duration)======================= */
+#duration h3 {
+    background-color: var(--mainColor);
+    padding: 10px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+#duration .content-singer {
+    background-color: #ccc;
+    color: black;
+    padding: 10px;
+    display: none;
+}
+
+/* ================= third section(details) =========================*/
+#details {
+    background: linear-gradient(var(--mainColor), var(--mainColor)), url(../images/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+#details .card {
+    border: 1px solid white;
+    padding: 50px;
+    background-color: transparent;
+
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+
+/* ====================contact=================== */
+#contact h3{
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact h4{
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact .header p
+{
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact p{
+    color: #777;
+    font-size: 16px;
+    line-height: 26px;
+}
+.red-color i{
+    color: #777!important;
+}
+.red-color{
+    color: #D62E33 !important;
+}
+.icon-info p{
+    margin-bottom: 35px;
+}
+.icon-info i{
+    margin-right: 15px;
+}
+.contact-info p:nth-child(2){
+   margin-bottom: 30px;
+}
+#contact ul li{
+    list-style-type: none;
+    border: 1px #999 solid;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+    cursor: pointer;
+    transition: all 0.4s;
+    
+}
+#contact ul li i{
+    color: #777;
+    transition: all 0.4s;
+}
+.social-list ul li:hover{
+    background-color: #D62E33;
+}
+.social-list ul li:hover i{
+    color: white !important;
+}
+#num{
+    font-size: 20px;
+}
